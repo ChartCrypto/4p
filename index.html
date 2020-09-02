@@ -45,7 +45,35 @@ time_is_widget.init({_z43c:{id:"Uiseong-eup_z43c", template:"TIME<br>DATE", time
 	</div>
 
 
-
+<div class="tradingview-widget-container">
+  <div id="tradingview_01362"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/BTCUSD/?exchange=BYBIT" rel="noopener" target="_blank"><span class="blue-text">BTCUSD 차트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 630,
+  "height": 300,
+  "symbol": "BYBIT:BTCUSD",
+  "interval": "D",
+  "timezone": "Asia/Seoul",
+  "theme": "dark",
+  "style": "1",
+  "locale": "kr",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "calendar": true,
+  "studies": [
+    "BB@tv-basicstudies",
+    "MASimple@tv-basicstudies"
+  ],
+  "container_id": "tradingview_01362"
+}
+  );
+  </script>
+</div>
 
 
 
